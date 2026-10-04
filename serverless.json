@@ -6,7 +6,7 @@
       "donate2": "USDT (TRC20): TU5gKvKqcXPn8itp1DouBCwcqGHMemBm8o",
       "donate3": "TON (TON): UQAc-mZB3y7uxWHKiMmq0ORZEYgycWDWZ4V1k73HsXvTJx-i"
     },
-    "remarks": "[Serverless] Serverless-v51-fragA",
+    "remarks": "[Serverless] Serverless-v52-fragA",
     "version": {
       "min": "26.6.27"
     },
@@ -124,7 +124,7 @@
             "domainStrategy": "ForceIP",
             "happyEyeballs": {
               "tryDelayMs": 300,
-              "prioritizeIPv6": false,
+              "prioritizeIPv6": true,
               "interleave": 4,
               "maxConcurrentTry": 20
             }
@@ -136,7 +136,7 @@
         "protocol": "direct",
         "streamSettings": {
           "sockopt": {
-            "domainStrategy": "ForceIPv4v6"
+            "domainStrategy": "ForceIPv6v4"
           }
         }
       },
@@ -172,7 +172,7 @@
             "domainStrategy": "ForceIP",
             "happyEyeballs": {
               "tryDelayMs": 300,
-              "prioritizeIPv6": false,
+              "prioritizeIPv6": true,
               "interleave": 4,
               "maxConcurrentTry": 20
             }
@@ -220,7 +220,7 @@
             "domainStrategy": "ForceIP",
             "happyEyeballs": {
               "tryDelayMs": 300,
-              "prioritizeIPv6": false,
+              "prioritizeIPv6": true,
               "interleave": 4,
               "maxConcurrentTry": 20
             }
@@ -232,7 +232,7 @@
         "protocol": "direct",
         "streamSettings": {
           "sockopt": {
-            "domainStrategy": "ForceIPv4v6"
+            "domainStrategy": "ForceIPv6v4"
           },
           "finalmask": {
             "udp": [
@@ -507,7 +507,7 @@
       "donate2": "USDT (TRC20): TU5gKvKqcXPn8itp1DouBCwcqGHMemBm8o",
       "donate3": "TON (TON): UQAc-mZB3y7uxWHKiMmq0ORZEYgycWDWZ4V1k73HsXvTJx-i"
     },
-    "remarks": "[Serverless] Serverless-v51-fragB",
+    "remarks": "[Serverless] Serverless-v52-fragB",
     "version": {
       "min": "26.6.27"
     },
@@ -625,7 +625,7 @@
             "domainStrategy": "ForceIP",
             "happyEyeballs": {
               "tryDelayMs": 300,
-              "prioritizeIPv6": false,
+              "prioritizeIPv6": true,
               "interleave": 4,
               "maxConcurrentTry": 20
             }
@@ -637,7 +637,7 @@
         "protocol": "direct",
         "streamSettings": {
           "sockopt": {
-            "domainStrategy": "ForceIPv4v6"
+            "domainStrategy": "ForceIPv6v4"
           }
         }
       },
@@ -673,7 +673,7 @@
             "domainStrategy": "ForceIP",
             "happyEyeballs": {
               "tryDelayMs": 300,
-              "prioritizeIPv6": false,
+              "prioritizeIPv6": true,
               "interleave": 4,
               "maxConcurrentTry": 20
             }
@@ -721,7 +721,7 @@
             "domainStrategy": "ForceIP",
             "happyEyeballs": {
               "tryDelayMs": 300,
-              "prioritizeIPv6": false,
+              "prioritizeIPv6": true,
               "interleave": 4,
               "maxConcurrentTry": 20
             }
@@ -733,7 +733,7 @@
         "protocol": "direct",
         "streamSettings": {
           "sockopt": {
-            "domainStrategy": "ForceIPv4v6"
+            "domainStrategy": "ForceIPv6v4"
           },
           "finalmask": {
             "udp": [
